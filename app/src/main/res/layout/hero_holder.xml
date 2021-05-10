@@ -20,7 +20,10 @@
             android:id="@+id/tv_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Name" />
+            android:fontFamily="@font/space"
+            android:text="Name"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -32,12 +35,18 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingRight="8dp"
+                android:textColor="#F7AF25"
+                android:textSize="13sp"
+                android:textStyle="bold"
                 android:text="Attribute" />
 
             <TextView
                 android:id="@+id/tv_attk"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textColor="#F7AF25"
+                android:textSize="13sp"
+                android:textStyle="bold"
                 android:text="Attack" />
         </LinearLayout>
     </LinearLayout>
